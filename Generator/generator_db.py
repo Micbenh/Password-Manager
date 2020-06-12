@@ -70,8 +70,8 @@ class GenoratorDB:
 
 db = GenoratorDB('test_passwords')
 
-#print(db.connect_to_db_and_create_table())
+print(db.connect_to_db_and_create_table())
 #db.add_a_new_password('Santiro','123123123','Reddit')
-print(db.show_all_entries())
+#print(db.show_all_entries())
 #print(db.select_by_id(2))
 #db.delete_row(1)
